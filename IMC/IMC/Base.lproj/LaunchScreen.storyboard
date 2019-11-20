@@ -18,12 +18,19 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="AUV-aG-reB">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="AUV-aG-reB">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.11045422405004501" green="0.61252164840698242" blue="0.76539021730422974" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AUV-aG-reB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Tuu-AV-bDT"/>
+                            <constraint firstItem="AUV-aG-reB" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ZVU-QR-aMX"/>
+                            <constraint firstItem="AUV-aG-reB" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dYN-kD-bRd"/>
+                            <constraint firstItem="AUV-aG-reB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hJh-8c-sa1"/>
+                            <constraint firstItem="AUV-aG-reB" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lW3-ah-4D5"/>
+                            <constraint firstItem="AUV-aG-reB" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="yMf-bW-wbQ"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
